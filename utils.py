@@ -49,7 +49,7 @@ def _threshold(x, threshold=None):
 
 def save_checkpoint(state, timestamp, epoch_number):
     print("=> Saving checkpoint")
-    torch.save(state, 'model_{}_{}.pt'.format(timestamp, epoch_number))
+    torch.save(state, 'weights/model_{}_{}.pt'.format(timestamp, epoch_number))
 
 
 def load_checkpoint(checkpoint, model):
