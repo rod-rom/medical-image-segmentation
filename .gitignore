@@ -130,3 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Models
+best_model.pt
+model_20230428_180955_223.pt
