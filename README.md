@@ -77,7 +77,7 @@ brainMRI
 
 # Results
 ### UNet with Batch Normalization trained for 50 epochs
-![inference](assets\inference.png)
+![inference](./assets/inference.png)
 ### Loss using Dice Coefficient 
-![loss](assets\train_val_loss_graph.png)
+![loss](./assets/train_val_loss_graph.png)
 
